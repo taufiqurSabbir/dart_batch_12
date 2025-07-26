@@ -1,11 +1,12 @@
 mixin Writer{
-
+String a = 'df';
   write(){
     print('Writing...');
   }
 }
 
 mixin Reader{
+  String a = '21652';
   read(){
     print('Reading...');
   }
@@ -19,4 +20,5 @@ main(){
   Student Imam = Student();
   Imam.write();
   Imam.read();
+  print(Imam.a);
 }

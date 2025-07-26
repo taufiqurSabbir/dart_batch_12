@@ -20,7 +20,8 @@ class Son extends Father {
   // Son(this.SonName,String fatherName) : super(fatherName);
   Son(this.SonName,super.fatherName) ;
 
-  String fatherName = 'Rahim';
+
+
 
   @override
   incomeSource() {
@@ -29,6 +30,7 @@ class Son extends Father {
 }
 
 main() {
+  Father x = Father('dfg');
   Son Amit = Son('Karim','Amit');
   print(Amit.land);
   Amit.incomeSource();
